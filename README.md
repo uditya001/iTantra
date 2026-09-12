@@ -24,7 +24,6 @@ No internet. No cloud APIs. Speak in your language on one phone, it's heard alou
 </table>
 
 </div>
-
 ## The Problem
 
 When a cyclone, flood, or earthquake knocks out cell towers, the internet goes with it — but that's exactly when people most need to reach each other. Text messages don't work either: a lot of the affected population can't read or write, and typing under panic isn't realistic. Voice is the only format that reaches everyone, but raw audio is too data-heavy to move over the kind of low-bitrate, ad-hoc links you're left with once the towers are down. Most existing solutions also lean on cloud-hosted STT/TTS APIs, which is a non-starter the moment the internet itself is the thing that's gone.
