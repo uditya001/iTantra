@@ -247,3 +247,50 @@ flowchart LR
 </div>
 
 ---
+
+---
+
+## Language Support
+
+<div align="center">
+
+### One communication layer. Multiple Indian languages.
+
+</div>
+
+<br>
+
+<table align="center">
+<tr>
+<td align="center" width="150"><b>Hindi</b><br><sub>हिन्दी</sub></td>
+<td align="center" width="150"><b>Gujarati</b><br><sub>ગુજરાતી</sub></td>
+<td align="center" width="150"><b>Marathi</b><br><sub>मराठी</sub></td>
+<td align="center" width="150"><b>Kannada</b><br><sub>ಕನ್ನಡ</sub></td>
+<td align="center" width="150"><b>Malayalam</b><br><sub>മലയാളം</sub></td>
+</tr>
+
+<tr>
+<td align="center"><b>Tamil</b><br><sub>தமிழ்</sub></td>
+<td align="center"><b>Telugu</b><br><sub>తెలుగు</sub></td>
+<td align="center"><b>Odia</b><br><sub>ଓଡ଼ିଆ</sub></td>
+<td align="center"><b>Bengali</b><br><sub>বাংলা</sub></td>
+<td align="center"><b>English</b><br><sub>English</sub></td>
+</tr>
+</table>
+
+<br>
+
+<div align="center">
+
+| Speech Input | Text Transmission | Speech Output |
+|:---:|:---:|:---:|
+| Offline STT | Lightweight Text | Offline TTS |
+| Local Processing | Wi-Fi / Bluetooth | Local Processing |
+
+</div>
+
+<br>
+
+> **Target language coverage:** Hindi, Gujarati, Marathi, Kannada, Malayalam, Tamil, Telugu, Odia, Bengali, and English.
+
+---
