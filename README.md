@@ -130,34 +130,88 @@ flowchart LR
 ```mermaid
 flowchart LR
 
-    subgraph A["SENDER PHONE"]
-        A1["Microphone"]
-        A2["Offline STT"]
-        A3["Text Processing"]
+    %% ================= SENDER =================
 
-        A1 --> A2 --> A3
+    subgraph S["SENDER ANDROID DEVICE"]
+        direction TB
+
+        S0["User Voice"]
+
+        subgraph S1["Voice Input"]
+            direction TB
+            S0 --> MIC["Microphone"]
+            MIC --> PTT["Push-to-Talk / Phone Mode"]
+        end
+
+        subgraph S2["Offline Speech Processing"]
+            direction TB
+            PTT --> VAD["Pause / Speech Detection"]
+            VAD --> STT["Offline Speech-to-Text"]
+            STT --> TXT["Recognized Text"]
+        end
+
+        subgraph S3["Data Preparation"]
+            direction TB
+            TXT --> OPT["Text Processing"]
+            OPT --> PACK["Lightweight Data Packet"]
+        end
+
+        S1 --> S2
+        S2 --> S3
     end
 
-    subgraph B["LOCAL LINK"]
-        B1["Wi-Fi / Bluetooth"]
+
+    %% ================= COMMUNICATION =================
+
+    subgraph N["LOCAL COMMUNICATION LAYER"]
+        direction TB
+
+        LINK["Wi-Fi Direct / Bluetooth"]
+
+        DATA["Lightweight Text Data"]
+
+        LINK --> DATA
     end
 
-    subgraph C["RECEIVER PHONE"]
-        C1["Text Receiver"]
-        C2["Offline TTS"]
-        C3["Speaker"]
 
-        C1 --> C2 --> C3
+    %% ================= RECEIVER =================
+
+    subgraph R["RECEIVER ANDROID DEVICE"]
+        direction TB
+
+        subgraph R1["Data Reception"]
+            direction TB
+            RX["Packet Receiver"]
+            DATAIN["Received Text"]
+            RX --> DATAIN
+        end
+
+        subgraph R2["Offline Speech Generation"]
+            direction TB
+            TTS["Offline Text-to-Speech"]
+            ALERT["Priority / Alert Handling"]
+            DATAIN --> TTS
+            DATAIN --> ALERT
+        end
+
+        subgraph R3["Voice Output"]
+            direction TB
+            SPEAKER["Device Speaker"]
+            ALERT --> SPEAKER
+            TTS --> SPEAKER
+        end
+
+        R1 --> R2
+        R2 --> R3
     end
 
-    A3 --> B1
-    B1 --> C1
-```
 
-<br>
+    %% ================= CONNECTIONS =================
 
-**The sender phone captures the user's voice and converts it into text locally.  
-Instead of transmitting raw audio, the lightweight text is sent through a local Wi-Fi or Bluetooth connection.  
-The receiver phone processes the received text locally and converts it back into speech.**
+    PACK --> LINK
+    DATA --> RX
 
-<br>
+
+    %% ================= RETURN / REVERSE =================
+
+    SPEAKER -. "Voice Output" .-> ENDPOINT["Listener"]
