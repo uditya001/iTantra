@@ -53,6 +53,7 @@ During a disaster — an earthquake, a flood, a cyclone — the network is usual
 - The result is the same story after almost every major disaster: rescue teams and affected communities lose the ability to reach each other at the exact moment it matters most, sometimes for days at a stretch.
 
 No cell tower can be rebuilt in an hour, and no power grid comes back overnight. So here's where **iTantra** comes in — built on the assumption that none of that infrastructure is coming back anytime soon, and that two phones need a way to talk to each other anyway.
+<br>
 
 ## What iTantra Does
 
