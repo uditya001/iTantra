@@ -31,3 +31,11 @@ No internet. No cloud APIs. Speak in your language on one phone, it's heard alou
 ## The Solution
 
 > iTantra doesn't try to send audio at all. It converts speech to text on the sending phone, using models that run entirely on-device, sends that text — a few hundred bytes, not megabytes — directly to a second phone over WiFi or Bluetooth, and converts it back into spoken audio there. No towers, no router, no data plan, and no server anywhere in the loop. Push-to-talk turns it into a walkie-talkie; toggled off, the phone behaves normally. The same pipeline works across 10 Indian languages, so the person speaking and the person listening don't even need to share one.
+
+
+| | Sending raw audio | iTantra |
+|---|---|---|
+| Payload size | Several MB per message | A few hundred bytes |
+| Works over low-bitrate link? | ❌ | ✅ |
+| Needs internet/cloud API? | Often, yes | Never |
+| Reaches non-readers? | ✅ (if it arrives) | ✅ |
