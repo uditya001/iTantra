@@ -24,6 +24,8 @@ No internet. No cloud APIs. Speak in your language on one phone, it's heard alou
 </table>
 </div>
 
+
+
 ## Contents
 
 - [Demo](#demo)
