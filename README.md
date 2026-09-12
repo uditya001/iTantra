@@ -39,7 +39,7 @@ No internet. No cloud APIs. Speak in your language on one phone, it's heard alou
 - [Getting Started](#getting-started)
 - [Models & Credits](#models--credits)
 - [Project Structure](#project-structure)
-- [Team — Debug or Die](#team--debug-or-die)
+- [Team](#team)
 - [Contributing](#contributing)
 - [License](#license)
 
