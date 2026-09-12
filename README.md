@@ -66,16 +66,15 @@ Instead of trying to move audio — which is heavy, slow, and needs a good conne
 
 Take away the towers, the routers, the entire internet — and two phones can still find a way to talk. That's the whole idea.
 
-| Feature | Description | Status |
-|---|---|---|
-| **Offline speech pipeline** | On-device STT via Vosk, and on-device TTS — zero network calls at any point. | ✅ Built (English) |
-| **Sentence-boundary detection** | Vosk's built-in endpointing marks the end of a spoken sentence, triggering transmission without waiting for the user to stop recording manually. | ✅ Built |
-| **Direct phone-to-phone transport** | Google Nearby Connections negotiates WiFi and Bluetooth automatically between the two devices — no tower or router involved. | ✅ Built |
-| **Push-to-talk relay** | Hold to speak, release to send — the sentence is transcribed and relayed within moments of finishing. | ✅ Built |
-| **Dual-mode operation** | Toggle switches the same device between walkie-talkie relay mode and normal phone behavior. | 🎯 In progress |
-| **Multilingual pipeline (10 languages)** | Shared architecture designed so each of the 10 required Indian languages is a model-file swap, not a separate codebase. | 🎯 Planned (AI4Bharat models) |
-| **Streaming synthesis** | TTS output starts playing as soon as the first chunk of a sentence is ready, instead of waiting for the full utterance to render. | 🎯 Planned |
-| **Quantized on-device models** | STT/TTS models quantized (INT8) and converted to TFLite/ONNX for low/mid-range phone performance. | 🎯 Planned |
-| **Open-source models only** | No proprietary or cloud-hosted voice SDK anywhere in the stack. | ✅ Built |
-| **Idle-listening efficiency** | VAD runs continuously at low CPU cost while waiting for speech, rather than always-on full inference. | 🎯 Planned |
+## Key Features
 
+| | |
+|---|---|
+| **Offline speech pipeline** | On-device STT via [Vosk](https://alphacephei.com/vosk/) (open-source, offline), and on-device TTS — zero network calls, ever. |
+| **Sentence-boundary detection** | Vosk's built-in endpointing marks the end of a spoken sentence, triggering transmission the moment the speaker stops — no manual "done" button needed. |
+| **Direct phone-to-phone transport** | [Google Nearby Connections](https://developers.google.com/nearby/connections/overview) negotiates WiFi and Bluetooth automatically between the two devices — no tower, router, or internet involved. |
+| **Push-to-talk relay** | Hold to speak, release to send — the sentence is transcribed and relayed to the other phone within moments of finishing. |
+| **Dual-mode operation** | A toggle switches the same device between walkie-talkie relay mode and normal phone behavior, instantly. |
+| **Multilingual by design** | One shared pipeline architecture, built so each of the 10 required Indian languages is a model-file swap rather than a separate codebase. |
+| **Low/mid-range hardware target** | Built and benchmarked against phones in the low-to-mid range, not flagship-only devices. |
+| **Open-source, always** | No proprietary or cloud-hosted voice SDK anywhere in the stack — every model and library used is listed in `Credits`. |
