@@ -65,3 +65,14 @@ Instead of trying to move audio — which is heavy, slow, and needs a good conne
 - **Everything stays on the two phones.** No cloud call, no internet check, no external service touched at any point from the moment someone starts speaking to the moment the other phone plays it back.
 
 Take away the towers, the routers, the entire internet — and two phones can still find a way to talk. That's the whole idea.
+
+
+## Key Features
+
+- **Fully offline speech pipeline** — speech-to-text and text-to-speech both run entirely on-device, with zero network calls at any point.
+- **10 Indian languages** — Hindi, Bengali, Marathi, Telugu, Tamil, Gujarati, Kannada, Malayalam, Odia, and English, on a single shared pipeline.
+- **Push-to-talk walkie-talkie mode** — hold to speak, release to send; the message is transcribed, relayed, and spoken aloud on the other phone within moments.
+- **Dual-mode operation** — the same app switches instantly between relay mode and normal phone behavior, no separate install needed.
+- **Direct phone-to-phone transport** — WiFi and Bluetooth links carry the message with no tower, router, or internet in between.
+- **Built for low/mid-range hardware** — designed to run smoothly on the kind of phones most people actually carry, not just flagship devices.
+- **Open-source models only** — no proprietary or cloud-hosted voice SDKs anywhere in the stack.
