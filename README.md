@@ -80,7 +80,5 @@ Every feature below runs entirely on the two phones involved — nothing here de
 | **Low/mid-range hardware target** | Built and benchmarked against phones in the low-to-mid range, not flagship-only devices. |
 | **Open-source, always** | No proprietary or cloud-hosted voice SDKs anywhere in the stack — every model and library used is listed in [Credits](#credits). |
 
-> 🚧 English is working end-to-end today. See [Project Status](#project-status) for exactly what's shipped vs. planned.
-| **Low/mid-range hardware target** | Built and benchmarked against phones in the low-to-mid range, not flagship-only devices. |
-| **Open-source, always** | No proprietary or cloud-hosted voice SDKs anywhere in the stack — every model and library used is listed in [Credits](#credits). |
+
 
