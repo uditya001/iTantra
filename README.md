@@ -83,20 +83,37 @@ Take away the towers, the routers, the entire internet — and two phones can st
 ## How It Works
 
 ```mermaid
-sequenceDiagram
-    participant A as Speaker (Phone A)
-    participant V as VAD
-    participant S as Vosk STT
-    participant T as Nearby Connections
-    participant B as Listener (Phone B)
-    participant Y as TTS Engine
+flowchart LR
 
-    A->>V: raw microphone audio (push-to-talk held)
-    V->>S: end-of-sentence detected
-    S->>T: transcribed text
-    T->>B: text payload (WiFi / Bluetooth)
-    B->>Y: received text
-    Y->>B: synthesized speech played aloud
-```
+    A["Voice Input"]
+    --> B["Offline STT"]
 
-Push-to-talk released on either phone reverses the flow — either device can speak or listen at any time.
+    B --> C["Text"]
+
+    C --> D["Data Optimization"]
+
+    D --> E["Wi-Fi / Bluetooth"]
+
+    E --> F["Text Received"]
+
+    F --> G["Offline TTS"]
+
+    G --> H["Voice Output"]
+
+
+    subgraph S["Sender Device"]
+        A
+        B
+        C
+        D
+    end
+
+    subgraph L["Local Communication"]
+        E
+    end
+
+    subgraph R["Receiver Device"]
+        F
+        G
+        H
+    end
