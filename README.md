@@ -470,3 +470,15 @@ iTantra/
 </div>
 
 ---
+
+---
+
+## Models & credits
+
+| Component | Source | License |
+|---|---|---|
+| STT acoustic model | [AI4Bharat IndicConformer](https://github.com/AI4Bharat/IndicConformer) (via [trysem/indicconformer-120m-onnx](https://github.com/trysem/indicconformer-120m-onnx)) | CC-BY-4.0 |
+| VAD | [Silero VAD](https://github.com/snakers4/silero-vad) | MIT |
+| STT/VAD runtime | [sherpa-onnx](https://github.com/k2-fsa/sherpa-onnx) (k2-fsa) | Apache-2.0 |
+| TTS acoustic + vocoder | [AI4Bharat Indic-TTS](https://github.com/AI4Bharat/Indic-TTS) (FastPitch + HiFi-GAN) | MIT |
+| TTS/general ONNX runtime | [ONNX Runtime Mobile](https://github.com/microsoft/onnxruntime) (Microsoft) | MIT |
