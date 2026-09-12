@@ -17,7 +17,7 @@ No internet. No cloud APIs. Speak in your language on one phone, it's heard alou
 <table>
 <tr>
 <td align="center" width="180"><h3>10</h3>Indian languages targeted</td>
-<td align="center" width="180"><h3>1</h3>Language wired up today</td>
+<td align="center" width="180"><h3>2</h3>Transport links (WiFi + BT)</td>
 <td align="center" width="180"><h3>0</h3>Cloud API calls for speech</td>
 <td align="center" width="180"><h3>SIH 2026</h3>PS #26173, ISRO</td>
 </tr>
