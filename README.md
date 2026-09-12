@@ -403,3 +403,70 @@ Voice Output
 </div>
 
 ---
+
+
+---
+
+## Project Structure
+
+<div align="center">
+
+### A modular structure for speech processing, communication, and Android UI.
+
+</div>
+
+<br>
+
+```text
+iTantra/
+│
+├── app/
+│   └── src/
+│       └── main/
+│           ├── java/
+│           │   └── .../
+│           │       ├── ui/
+│           │       ├── stt/
+│           │       ├── tts/
+│           │       ├── communication/
+│           │       └── utils/
+│           │
+│           ├── res/
+│           │   ├── drawable/
+│           │   ├── mipmap/
+│           │   └── values/
+│           │
+│           └── AndroidManifest.xml
+│
+├── gradle/
+│
+├── build.gradle.kts
+├── settings.gradle.kts
+├── gradle.properties
+│
+├── README.md
+└── LICENSE
+```
+
+<br>
+
+| Directory / File | Purpose |
+|:---|:---|
+| `ui/` | Application screens and user interface |
+| `stt/` | Offline speech-to-text processing |
+| `tts/` | Offline text-to-speech processing |
+| `communication/` | Wi-Fi / Bluetooth communication |
+| `utils/` | Shared utilities and helper components |
+| `res/` | Android resources and UI assets |
+| `AndroidManifest.xml` | Application configuration and permissions |
+| `build.gradle.kts` | Project and dependency configuration |
+
+<br>
+
+<div align="center">
+
+**UI → Speech Processing → Communication → Voice Output**
+
+</div>
+
+---
