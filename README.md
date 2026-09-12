@@ -23,6 +23,8 @@ No internet. No cloud APIs. Speak in your language on one phone, it's heard alou
 </tr>
 </table>
 
+</div>
+
 ## The Problem
 
 When a cyclone, flood, or earthquake knocks out cell towers, the internet goes with it — but that's exactly when people most need to reach each other. Text messages don't work either: a lot of the affected population can't read or write, and typing under panic isn't realistic. Voice is the only format that reaches everyone, but raw audio is too data-heavy to move over the kind of low-bitrate, ad-hoc links you're left with once the towers are down. Most existing solutions also lean on cloud-hosted STT/TTS APIs, which is a non-starter the moment the internet itself is the thing that's gone.
@@ -30,5 +32,3 @@ When a cyclone, flood, or earthquake knocks out cell towers, the internet goes w
 ## The Solution
 
 iTantra doesn't try to send audio at all. It converts speech to text on the sending phone, using models that run entirely on-device, sends that text — a few hundred bytes, not megabytes — directly to a second phone over WiFi or Bluetooth, and converts it back into spoken audio there. No towers, no router, no data plan, and no server anywhere in the loop. Push-to-talk turns it into a walkie-talkie; toggled off, the phone behaves normally. The same pipeline works across 10 Indian languages, so the person speaking and the person listening don't even need to share one.
-
-</div>
