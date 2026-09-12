@@ -53,3 +53,14 @@ During a disaster — an earthquake, a flood, a cyclone — the network is usual
 - The result is the same story after almost every major disaster: rescue teams and affected communities lose the ability to reach each other at the exact moment it matters most, sometimes for days at a stretch.
 
 No cell tower can be rebuilt in an hour, and no power grid comes back overnight. So here's where **iTantra** comes in — built on the assumption that none of that infrastructure is coming back anytime soon, and that two phones need a way to talk to each other anyway.
+
+## What iTantra Does
+
+Instead of trying to move audio — which is heavy, slow, and needs a good connection — iTantra moves the *sentence*. Speech is converted to text right there on the sending phone, that text (a few hundred bytes, not megabytes) travels straight to a second phone over WiFi or Bluetooth, and the receiving phone turns it back into spoken audio. No towers, no router, no data plan, and nothing resembling a server anywhere in the loop.
+
+- **Hold to talk, release to send.** Push-to-talk turns the pair of phones into a walkie-talkie — speak, let go, and the sentence is transcribed, relayed, and spoken aloud on the other end within moments.
+- **Flip it off, get a normal phone back.** The same device switches out of relay mode instantly, no separate app or reboot needed.
+- **One pipeline, ten languages.** The person speaking and the person listening don't even need to understand the same language — the loop handles the translation between them.
+- **Everything stays on the two phones.** No cloud call, no internet check, no external service touched at any point from the moment someone starts speaking to the moment the other phone plays it back.
+
+Two phones. No infrastructure between them. A conversation that shouldn't be possible — and is.
