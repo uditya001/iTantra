@@ -63,15 +63,4 @@ Instead of trying to move audio — which is heavy, slow, and needs a good conne
 - **One pipeline, ten languages.** The person speaking and the person listening don't even need to understand the same language — the loop handles the translation between them.
 - **Everything stays on the two phones.** No cloud call, no internet check, no external service touched at any point from the moment someone starts speaking to the moment the other phone plays it back.
 
-Two phones. No infrastructure between them. A conversation that shouldn't be possible — and is.
-
-## What iTantra Does
-
-Audio is heavy. A sentence isn't. So instead of trying to push voice data across a connection that was never built for it, iTantra strips a spoken message down to what it actually means — converts it to text, right there on the phone, in real time — sends that (a few hundred bytes, not megabytes) straight to a second phone over WiFi or Bluetooth, and rebuilds it into speech on the other side. No tower in between. No router. No server. Just two phones, doing all the work themselves.
-
-- **Hold to talk, release to send** — push-to-talk turns the pair into a walkie-talkie, and the other phone is speaking the message back within moments.
-- **Flip a switch, get a normal phone** — relay mode turns off instantly, no separate app, no restart.
-- **One language in, another out** — the speaker and the listener don't need to share a language; the loop bridges it.
-- **Nothing ever leaves the two devices** — not a byte touches the internet, because there isn't one to touch.
-
 Take away the towers, the routers, the entire internet — and two phones can still find a way to talk. That's the whole idea.
