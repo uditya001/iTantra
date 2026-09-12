@@ -294,3 +294,112 @@ flowchart LR
 > **Target language coverage:** Hindi, Gujarati, Marathi, Kannada, Malayalam, Tamil, Telugu, Odia, Bengali, and English.
 
 ---
+
+---
+
+## Getting Started
+
+<div align="center">
+
+### Run iTantra locally on your Android device or emulator.
+
+</div>
+
+<br>
+
+### Prerequisites
+
+Before running the project, make sure you have:
+
+- Android Studio installed
+- Android SDK configured
+- Kotlin support enabled
+- A physical Android device or Android emulator
+- Git installed
+
+<br>
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/uditya001/iTantra.git
+```
+
+```bash
+cd iTantra
+```
+
+<br>
+
+### 2. Open the Project
+
+Open the cloned project in **Android Studio**.
+
+Allow Android Studio to:
+
+- Sync the Gradle files
+- Download required dependencies
+- Complete the initial project indexing
+
+<br>
+
+### 3. Connect a Device
+
+You can use either:
+
+**Physical Android Device**
+
+Enable Developer Options and USB Debugging, then connect the device to your computer.
+
+**Android Emulator**
+
+Create and start an Android Virtual Device through Android Studio's Device Manager.
+
+<br>
+
+### 4. Build & Run
+
+Select the required device from the Android Studio device selector and click:
+
+```text
+Run ▶
+```
+
+Android Studio will build and install the application on the selected device.
+
+<br>
+
+### 5. Test Device-to-Device Communication
+
+For communication testing:
+
+```text
+Device A
+   │
+   │  Voice Input
+   ▼
+Offline STT
+   │
+   │  Text Data
+   ▼
+Wi-Fi / Bluetooth
+   │
+   ▼
+Device B
+   │
+   ▼
+Offline TTS
+   │
+   ▼
+Voice Output
+```
+
+<br>
+
+<div align="center">
+
+### iTantra is designed to keep the core communication pipeline offline.
+
+</div>
+
+---
