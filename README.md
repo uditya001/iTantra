@@ -130,38 +130,34 @@ flowchart LR
 ```mermaid
 flowchart LR
 
-    subgraph S["SENDER DEVICE"]
-        direction TB
+    subgraph A["SENDER PHONE"]
+        A1["Microphone"]
+        A2["Offline STT"]
+        A3["Text Processing"]
 
-        A["Microphone"]
-        B["Voice Capture"]
-        C["Offline STT"]
-        D["Text Processing"]
-
-        A --> B
-        B --> C
-        C --> D
+        A1 --> A2 --> A3
     end
 
-    subgraph L["LOCAL COMMUNICATION"]
-        direction TB
-
-        E["Wi-Fi / Bluetooth"]
-        F["Lightweight Text Data"]
-
-        E --- F
+    subgraph B["LOCAL LINK"]
+        B1["Wi-Fi / Bluetooth"]
     end
 
-    subgraph R["RECEIVER DEVICE"]
-        direction TB
+    subgraph C["RECEIVER PHONE"]
+        C1["Text Receiver"]
+        C2["Offline TTS"]
+        C3["Speaker"]
 
-        G["Text Receiver"]
-        H["Offline TTS"]
-        I["Speaker"]
-
-        G --> H
-        H --> I
+        C1 --> C2 --> C3
     end
 
-    D --> E
-    F --> G
+    A3 --> B1
+    B1 --> C1
+```
+
+<br>
+
+**The sender phone captures the user's voice and converts it into text locally.  
+Instead of transmitting raw audio, the lightweight text is sent through a local Wi-Fi or Bluetooth connection.  
+The receiver phone processes the received text locally and converts it back into speech.**
+
+<br>
