@@ -23,6 +23,24 @@ No internet. No cloud APIs. Speak in your language on one phone, it's heard alou
 </tr>
 </table>
 </div>
+## 🧭 Contents
+
+- 🎬 [Demo](#-demo)
+- 💡 [Why iTantra?](#-why-itantra)
+- ✨ [What iTantra Does](#-what-itantra-does)
+- 🚀 [Key Features](#-key-features)
+- 🔄 [How It Works](#-how-it-works)
+- 🏗️ [System Architecture](#️-system-architecture)
+- 🛠️ [Technology Stack](#️-technology-stack)
+- 🌐 [Language Support](#-language-support)
+- 📊 [Project Status](#-project-status)
+- ⚙️ [Getting Started](#️-getting-started)
+- 📂 [Project Structure](#-project-structure)
+- 🗺️ [Roadmap](#️-roadmap)
+- 🏆 [SIH 2026](#-smart-india-hackathon-2026)
+- 👥 [Team](#-team--debug-or-die)
+- 🤝 [Contributing](#-contributing)
+- 📄 [License](#-license)
 
 ## The Problem
 
@@ -31,18 +49,3 @@ No internet. No cloud APIs. Speak in your language on one phone, it's heard alou
 ## The Solution
 
 > iTantra doesn't try to send audio at all. It converts speech to text on the sending phone, using models that run entirely on-device, sends that text — a few hundred bytes, not megabytes — directly to a second phone over WiFi or Bluetooth, and converts it back into spoken audio there. No towers, no router, no data plan, and no server anywhere in the loop. Push-to-talk turns it into a walkie-talkie; toggled off, the phone behaves normally. The same pipeline works across 10 Indian languages, so the person speaking and the person listening don't even need to share one.
-
-<details>
-<summary><b>📋 Table of Contents</b></summary>
-
-- [The Problem](#-the-problem)
-- [The Solution](#-the-solution)
-- [Where This Stands](#-where-this-stands)
-- [Architecture](#architecture)
-- [Tech Stack](#tech-stack)
-- [Getting Started](#getting-started)
-- [Project Structure](#project-structure)
-- [Credits](#credits)
-- [License](#license)
-
-</details>
