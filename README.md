@@ -484,3 +484,16 @@ iTantra/
 
 
 ---
+
+## Team
+
+### Debug or Die
+
+| Member | GitHub |
+|---|---|
+| **Dilkhush Kumar** | [GitHub](https://github.com/USERNAME) |
+| **Uditya** | [GitHub](https://github.com/USERNAME) |
+| **Nisha** | [GitHub](https://github.com/USERNAME) |
+| **Prince** | [GitHub](https://github.com/USERNAME) |
+| **Jyoti** | [GitHub](https://github.com/USERNAME) |
+| **Saurabh** | [GitHub](https://github.com/USERNAME) |
