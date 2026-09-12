@@ -28,7 +28,6 @@ No internet. No cloud APIs. Speak in your language on one phone, it's heard alou
 
 ## Contents
 
-- [Demo](#demo)
 - [Why iTantra?](#why-itantra)
 - [What iTantra Does](#what-itantra-does)
 - [Key Features](#key-features)
@@ -37,8 +36,8 @@ No internet. No cloud APIs. Speak in your language on one phone, it's heard alou
 - [Tech Stack](#tech-stack)
 - [Language Support](#language-support)
 - [Getting Started](#getting-started)
-- [Models & Credits](#models--credits)
 - [Project Structure](#project-structure)
+- [Models & credits](#models--credits)
 - [Team](#team)
 - [Contributing](#contributing)
 - [License](#license)
