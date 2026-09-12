@@ -117,15 +117,3 @@ flowchart LR
         G
         H
     end
-
-
-## Tech Stack
-
-| Layer | Choice | Why |
-|---|---|---|
-| Language | Kotlin | Standard for modern Android development |
-| UI | Jetpack Compose (Material 3) | Faster to build and iterate on than XML layouts |
-| Speech-to-Text | [Vosk](https://alphacephei.com/vosk/) | Open-source, fully offline, works well on-device |
-| Text-to-Speech | Android TextToSpeech (offline pack) | Fastest path to working audio — interim choice |
-| Transport | [Google Nearby Connections](https://developers.google.com/nearby/connections/overview) | Auto-negotiates WiFi/Bluetooth, avoids hand-rolled discovery/pairing code |
-| Min SDK | 24 (Android 7.0) | Broad coverage of low/mid-range devices |
