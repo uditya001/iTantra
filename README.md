@@ -122,6 +122,8 @@ flowchart LR
 
     E -. "Local Link" .-> G
 
+```
+
 
 ## System Architecture
 
