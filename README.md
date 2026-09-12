@@ -78,3 +78,25 @@ Take away the towers, the routers, the entire internet — and two phones can st
 | **Multilingual by design** | One shared pipeline architecture, built so each of the 10 required Indian languages is a model-file swap rather than a separate codebase. |
 | **Low/mid-range hardware target** | Built and benchmarked against phones in the low-to-mid range, not flagship-only devices. |
 | **Open-source, always** | No proprietary or cloud-hosted voice SDK anywhere in the stack — every model and library used is listed in `Credits`. |
+
+
+## How It Works
+
+```mermaid
+sequenceDiagram
+    participant A as Speaker (Phone A)
+    participant V as VAD
+    participant S as Vosk STT
+    participant T as Nearby Connections
+    participant B as Listener (Phone B)
+    participant Y as TTS Engine
+
+    A->>V: raw microphone audio (push-to-talk held)
+    V->>S: end-of-sentence detected
+    S->>T: transcribed text
+    T->>B: text payload (WiFi / Bluetooth)
+    B->>Y: received text
+    Y->>B: synthesized speech played aloud
+```
+
+Push-to-talk released on either phone reverses the flow — either device can speak or listen at any time.
