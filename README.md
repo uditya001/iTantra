@@ -80,40 +80,54 @@ Take away the towers, the routers, the entire internet — and two phones can st
 | **Open-source, always** | No proprietary or cloud-hosted voice SDK anywhere in the stack — every model and library used is listed in `Credits`. |
 
 
-## How It Works
+## System Architecture
 
+<div align="center">
+
+### Two Android devices. One local communication link.
+
+</div>
+
+<br>
+
+## How It Works
 ```mermaid
 flowchart LR
 
-    A["Voice Input"]
-    --> B["Offline STT"]
+    subgraph S["SENDER PHONE"]
+        direction TB
 
-    B --> C["Text"]
+        A["Microphone"]
+        B["Voice Capture"]
+        C["Offline STT"]
+        D["Text Processing"]
 
-    C --> D["Data Optimization"]
-
-    D --> E["Wi-Fi / Bluetooth"]
-
-    E --> F["Text Received"]
-
-    F --> G["Offline TTS"]
-
-    G --> H["Voice Output"]
-
-
-    subgraph S["Sender Device"]
-        A
-        B
-        C
-        D
+        A --> B
+        B --> C
+        C --> D
     end
 
-    subgraph L["Local Communication"]
-        E
+    subgraph L["LOCAL COMMUNICATION"]
+        direction TB
+
+        E["Wi-Fi / Bluetooth"]
+        F["Lightweight Text Data"]
+
+        E --- F
     end
 
-    subgraph R["Receiver Device"]
-        F
-        G
-        H
+    subgraph R["RECEIVER PHONE"]
+        direction TB
+
+        G["Text Receiver"]
+        H["Offline TTS"]
+        I["Speaker"]
+
+        G --> H
+        H --> I
     end
+
+    D --> E
+    F --> G
+
+    E -. "Local Link" .-> G
