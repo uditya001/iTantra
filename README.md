@@ -481,3 +481,64 @@ iTantra/
 | STT/VAD runtime | [sherpa-onnx](https://github.com/k2-fsa/sherpa-onnx) (k2-fsa) | Apache-2.0 |
 | TTS acoustic + vocoder | [AI4Bharat Indic-TTS](https://github.com/AI4Bharat/Indic-TTS) (FastPitch + HiFi-GAN) | MIT |
 | TTS/general ONNX runtime | [ONNX Runtime Mobile](https://github.com/microsoft/onnxruntime) (Microsoft) | MIT |
+
+
+---
+
+## Team
+
+<div align="center">
+
+### Debug or Die
+
+**Building iTantra for reliable communication when conventional connectivity fails.**
+
+<br>
+
+<table align="center">
+<tr>
+
+<td align="center" width="160">
+<h3>Dilkhush Kumar</h3>
+<sub>Backend & Integration</sub>
+</td>
+
+<td align="center" width="160">
+<h3>Uditya</h3>
+<sub>Frontend & Application</sub>
+</td>
+
+<td align="center" width="160">
+<h3>Nisha</h3>
+<sub>Research & Documentation</sub>
+</td>
+
+</tr>
+
+<tr>
+
+<td align="center" width="160">
+<h3>Prince</h3>
+<sub>Development & Testing</sub>
+</td>
+
+<td align="center" width="160">
+<h3>Jyoti</h3>
+<sub>Research & Design</sub>
+</td>
+
+<td align="center" width="160">
+<h3>Saurabh</h3>
+<sub>Technical Development</sub>
+</td>
+
+</tr>
+</table>
+
+<br>
+
+`IDEATE` &nbsp;•&nbsp; `BUILD` &nbsp;•&nbsp; `TEST` &nbsp;•&nbsp; `IMPROVE`
+
+</div>
+
+---
