@@ -52,6 +52,6 @@ During a disaster — an earthquake, a flood, a cyclone — the network is usual
 - **Towers go down with the storm itself.** When Cyclone Fani hit Odisha in 2019, hundreds of cell towers were damaged, cutting off cellular and internet connectivity across cities including Puri, Khordha, and Bhubaneswar for days.
 - **Even surviving networks can collapse under load.** When a disaster hits, huge numbers of people try to call or message at once, and cellular networks weren't built to handle that surge — calls drop and messages queue for hours.
 - **Power failure finishes what the storm started.** Cell towers typically run on batteries with only a few hours of backup; once that runs out and the grid stays down, coverage disappears even in areas the disaster didn't directly damage.
-- **Text isn't a real fallback.** A meaningful share of the affected population can't read or write, and composing a message while panicked, injured, or in the dark isn't realistic even for those who can.
+- The result is the same story after almost every major disaster: rescue teams and affected communities lose the ability to reach each other at the exact moment it matters most, sometimes for days at a stretch.
 
-The result is the same story after almost every major disaster: rescue teams and affected communities lose the ability to reach each other at the exact moment it matters most, sometimes for days at a stretch.
+No cell tower can be rebuilt in an hour, and no power grid comes back overnight. So here's where iTantra comes in — built on the assumption that none of that infrastructure is coming back anytime soon, and that two phones need a way to talk to each other anyway.
