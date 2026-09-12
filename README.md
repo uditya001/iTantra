@@ -67,12 +67,16 @@ Instead of trying to move audio — which is heavy, slow, and needs a good conne
 Take away the towers, the routers, the entire internet — and two phones can still find a way to talk. That's the whole idea.
 
 
-## Key Features
+## Features
 
-- **Fully offline speech pipeline** — speech-to-text and text-to-speech both run entirely on-device, with zero network calls at any point.
-- **10 Indian languages** — Hindi, Bengali, Marathi, Telugu, Tamil, Gujarati, Kannada, Malayalam, Odia, and English, on a single shared pipeline.
-- **Push-to-talk walkie-talkie mode** — hold to speak, release to send; the message is transcribed, relayed, and spoken aloud on the other phone within moments.
-- **Dual-mode operation** — the same app switches instantly between relay mode and normal phone behavior, no separate install needed.
-- **Direct phone-to-phone transport** — WiFi and Bluetooth links carry the message with no tower, router, or internet in between.
-- **Built for low/mid-range hardware** — designed to run smoothly on the kind of phones most people actually carry, not just flagship devices.
-- **Open-source models only** — no proprietary or cloud-hosted voice SDKs anywhere in the stack.
+| | |
+|---|---|
+| **Offline speech pipeline** | On-device STT via [Vosk](https://alphacephei.com/vosk/) (open-source, offline) and on-device TTS — zero network calls, ever. |
+| **Push-to-talk relay** | Hold to speak, release to send — the sentence is transcribed and relayed to the other phone within moments of finishing. |
+| **Direct phone-to-phone transport** | [Google Nearby Connections](https://developers.google.com/nearby/connections/overview) negotiates WiFi and Bluetooth automatically — no tower, router, or internet in the loop. |
+| **Dual-mode operation** | Flip a toggle to switch the same device between walkie-talkie relay mode and normal phone behavior. |
+| **Multilingual by design** | One shared pipeline architecture built to carry all 10 required Indian languages by swapping the model file per language — not 10 separate codebases. |
+| **Low/mid-range hardware target** | Built and benchmarked against phones in the low-to-mid range, not flagship-only devices. |
+| **Open-source, always** | No proprietary or cloud-hosted voice SDKs anywhere in the stack — every model and library used is listed in [Credits](#credits). |
+
+> 🚧 English is working end-to-end today. See [Project Status](#project-status) for exactly what's shipped vs. planned.
