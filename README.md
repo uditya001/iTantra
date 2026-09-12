@@ -1,5 +1,20 @@
 <div align="center">
 
+<details>
+<summary><b>📋 Table of Contents</b></summary>
+
+- [The Problem](#-the-problem)
+- [The Solution](#-the-solution)
+- [Where This Stands](#-where-this-stands)
+- [Architecture](#architecture)
+- [Tech Stack](#tech-stack)
+- [Getting Started](#getting-started)
+- [Project Structure](#project-structure)
+- [Credits](#credits)
+- [License](#license)
+
+</details>
+
 # iTantra
 
 **Offline speech relay for low-bitrate & no-network scenarios — in 10 Indian languages.**
