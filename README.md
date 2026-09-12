@@ -23,24 +23,25 @@ No internet. No cloud APIs. Speak in your language on one phone, it's heard alou
 </tr>
 </table>
 </div>
-## 🧭 Contents
 
-- 🎬 [Demo](#-demo)
-- 💡 [Why iTantra?](#-why-itantra)
-- ✨ [What iTantra Does](#-what-itantra-does)
-- 🚀 [Key Features](#-key-features)
-- 🔄 [How It Works](#-how-it-works)
-- 🏗️ [System Architecture](#️-system-architecture)
-- 🛠️ [Technology Stack](#️-technology-stack)
-- 🌐 [Language Support](#-language-support)
-- 📊 [Project Status](#-project-status)
-- ⚙️ [Getting Started](#️-getting-started)
-- 📂 [Project Structure](#-project-structure)
-- 🗺️ [Roadmap](#️-roadmap)
-- 🏆 [SIH 2026](#-smart-india-hackathon-2026)
-- 👥 [Team](#-team--debug-or-die)
-- 🤝 [Contributing](#-contributing)
-- 📄 [License](#-license)
+## Contents
+
+- [Demo](#demo)
+- [Why iTantra?](#why-itantra)
+- [What iTantra Does](#what-itantra-does)
+- [Key Features](#key-features)
+- [How It Works](#how-it-works)
+- [System Architecture](#system-architecture)
+- [Technology Stack](#technology-stack)
+- [Language Support](#language-support)
+- [Project Status](#project-status)
+- [Getting Started](#getting-started)
+- [Project Structure](#project-structure)
+- [Roadmap](#roadmap)
+- [SIH 2026](#smart-india-hackathon-2026)
+- [Team](#team--debug-or-die)
+- [Contributing](#contributing)
+- [License](#license)
 
 ## The Problem
 
