@@ -39,8 +39,6 @@ No internet. No cloud APIs. Speak in your language on one phone, it's heard alou
 - [Project Status](#project-status)
 - [Getting Started](#getting-started)
 - [Project Structure](#project-structure)
-- [Roadmap](#roadmap)
-- [SIH 2026](#smart-india-hackathon-2026)
 - [Team](#team--debug-or-die)
 - [Contributing](#contributing)
 - [License](#license)
@@ -54,4 +52,4 @@ During a disaster — an earthquake, a flood, a cyclone — the network is usual
 - **Power failure finishes what the storm started.** Cell towers typically run on batteries with only a few hours of backup; once that runs out and the grid stays down, coverage disappears even in areas the disaster didn't directly damage.
 - The result is the same story after almost every major disaster: rescue teams and affected communities lose the ability to reach each other at the exact moment it matters most, sometimes for days at a stretch.
 
-No cell tower can be rebuilt in an hour, and no power grid comes back overnight. So here's where iTantra comes in — built on the assumption that none of that infrastructure is coming back anytime soon, and that two phones need a way to talk to each other anyway.
+No cell tower can be rebuilt in an hour, and no power grid comes back overnight. So here's where **iTantra** comes in — built on the assumption that none of that infrastructure is coming back anytime soon, and that two phones need a way to talk to each other anyway.
