@@ -37,7 +37,7 @@ No internet. No cloud APIs. Speak in your language on one phone, it's heard alou
 - [Tech Stack](#technology-stack)
 - [Language Support](#language-support)
 - [Getting Started](#project-status)
-- [Model & Credits](#getting-started)
+- [Models & credits](#getting-started)
 - [Project Structure](#project-structure)
 - [Team](#team--debug-or-die)
 - [Contributing](#contributing)
