@@ -82,21 +82,12 @@ Take away the towers, the routers, the entire internet — and two phones can st
 
 ## How It Works
 
-```mermaid
-sequenceDiagram
-    participant A as Speaker (Phone A)
-    participant V as VAD
-    participant S as Vosk STT
-    participant T as Nearby Connections
-    participant B as Listener (Phone B)
-    participant Y as TTS Engine
+| Step | Phone A (speaker) | | Phone B (listener) |
+|:---:|---|:---:|---|
+| 1 | 🎤 Holds push-to-talk, speaks | | |
+| 2 | Pause detected → speech converted to text on-device | | |
+| 3 | Text sent directly | → | Text received |
+| 4 | | | Converted to speech on-device |
+| 5 | | | 🔊 Played aloud |
 
-    A->>V: raw microphone audio (push-to-talk held)
-    V->>S: end-of-sentence detected
-    S->>T: transcribed text
-    T->>B: text payload (WiFi / Bluetooth)
-    B->>Y: received text
-    Y->>B: synthesized speech played aloud
-```
-
-Push-to-talk released on either phone reverses the flow — either device can speak or listen at any time.
+Releasing push-to-talk on either phone reverses the flow — B can speak back to A the same way, just like a walkie-talkie.
