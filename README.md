@@ -47,11 +47,11 @@ No internet. No cloud APIs. Speak in your language on one phone, it's heard alou
 
 ## Why iTantra?
 
-Disasters break communication at the exact moment people need it most — and they break it in a specific, predictable order.
+During a disaster — an earthquake, a flood, a cyclone — the network is usually one of the first things to fail. Cell towers get damaged or lose power, the internet goes down with them, and suddenly there's no way to make a call, send a text, or reach anyone outside the immediate area. This is exactly the moment people most need to communicate — to ask for help, to tell someone where they are, to know if their family is safe — and it's exactly when they can't.
 
-- **The towers fall first.** A cyclone, flood, or earthquake typically knocks out cell infrastructure within hours, and once it's down, calls, SMS, and mobile data all go with it — there's no network left to route any of them.
-- **Text was never going to fill the gap.** Even where a message could somehow get through, a meaningful share of the affected population can't read or write, and composing a coherent text message while panicked, injured, or in the dark isn't realistic for anyone.
-- **Voice is the one format everyone can use** — but it's also the heaviest. A few seconds of raw audio is several megabytes, and the only connection two stranded phones can form with each other post-disaster is a short-range, low-bitrate WiFi or Bluetooth link that was never built to carry that much data.
-- **"Offline" isn't always offline.** Plenty of voice-assistant apps market themselves as offline-capable but still quietly rely on a cloud-hosted STT or TTS API for the actual speech processing — which collapses the instant the one thing that's actually gone is the internet connection itself.
+- **Towers go down with the storm itself.** When Cyclone Fani hit Odisha in 2019, hundreds of cell towers were damaged, cutting off cellular and internet connectivity across cities including Puri, Khordha, and Bhubaneswar for days.
+- **Even surviving networks can collapse under load.** When a disaster hits, huge numbers of people try to call or message at once, and cellular networks weren't built to handle that surge — calls drop and messages queue for hours.
+- **Power failure finishes what the storm started.** Cell towers typically run on batteries with only a few hours of backup; once that runs out and the grid stays down, coverage disappears even in areas the disaster didn't directly damage.
+- **Text isn't a real fallback.** A meaningful share of the affected population can't read or write, and composing a message while panicked, injured, or in the dark isn't realistic even for those who can.
 
-iTantra starts from the opposite assumption: no cell network, no internet, no server anywhere in the loop — just two phones and whatever direct link they can form with each other. Every part of the speech pipeline, from recognition to synthesis, is built to run entirely on-device inside that constraint, in whichever of ten Indian languages the two people involved actually speak.
+The result is the same story after almost every major disaster: rescue teams and affected communities lose the ability to reach each other at the exact moment it matters most, sometimes for days at a stretch.
