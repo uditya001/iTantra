@@ -215,3 +215,137 @@ flowchart LR
     %% ================= RETURN / REVERSE =================
 
     SPEAKER -. "Voice Output" .-> ENDPOINT["Listener"]
+
+```
+
+---
+
+## Technology Stack
+
+<div align="center">
+
+### Built for offline processing, lightweight communication, and low-resource Android devices.
+
+</div>
+
+<br>
+
+<table align="center">
+<tr>
+
+<td align="center" width="220">
+
+### Android
+
+**Kotlin**
+
+<br>
+
+<sub>
+Native Android application and device-level integration.
+</sub>
+
+</td>
+
+<td align="center" width="220">
+
+### Speech
+
+**Offline STT + TTS**
+
+<br>
+
+<sub>
+Local speech recognition and speech synthesis without cloud APIs.
+</sub>
+
+</td>
+
+<td align="center" width="220">
+
+### Connectivity
+
+**Wi-Fi Direct / Bluetooth**
+
+<br>
+
+<sub>
+Local device-to-device communication for text transmission.
+</sub>
+
+</td>
+
+</tr>
+
+<tr>
+
+<td align="center" width="220">
+
+### Processing
+
+**Lightweight Models**
+
+<br>
+
+<sub>
+Designed to operate on low-power and low/mid-range Android devices.
+</sub>
+
+</td>
+
+<td align="center" width="220">
+
+### Data
+
+**Text-Based Transmission**
+
+<br>
+
+<sub>
+Speech is converted into lightweight text before transmission.
+</sub>
+
+</td>
+
+<td align="center" width="220">
+
+### Architecture
+
+**Fully Offline**
+
+<br>
+
+<sub>
+Core speech processing and communication remain on-device.
+</sub>
+
+</td>
+
+</tr>
+</table>
+
+<br>
+
+### Core Technologies
+
+| Layer | Technology |
+|---|---|
+| Platform | Android |
+| Language | Kotlin |
+| Development | Android Studio |
+| Speech Recognition | Open-source Offline STT |
+| Speech Synthesis | Offline TTS |
+| Connectivity | Wi-Fi Direct / Bluetooth |
+| Data Format | Lightweight Text Data |
+| Processing | On-device / Local |
+| Network Dependency | None |
+
+<br>
+
+<div align="center">
+
+**Kotlin • Android • Offline AI • Wi-Fi Direct • Bluetooth • On-Device Processing**
+
+</div>
+
+---
