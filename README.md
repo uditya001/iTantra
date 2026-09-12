@@ -220,131 +220,29 @@ flowchart LR
 
 ---
 
-## Technology Stack
-
-<div align="center">
-
-### Built for offline processing, lightweight communication, and low-resource Android devices.
-
-</div>
-
-<br>
-
-<table align="center">
-<tr>
-
-<td align="center" width="220">
-
-### Android
-
-**Kotlin**
-
-<br>
-
-<sub>
-Native Android application and device-level integration.
-</sub>
-
-</td>
-
-<td align="center" width="220">
-
-### Speech
-
-**Offline STT + TTS**
-
-<br>
-
-<sub>
-Local speech recognition and speech synthesis without cloud APIs.
-</sub>
-
-</td>
-
-<td align="center" width="220">
-
-### Connectivity
-
-**Wi-Fi Direct / Bluetooth**
-
-<br>
-
-<sub>
-Local device-to-device communication for text transmission.
-</sub>
-
-</td>
-
-</tr>
-
-<tr>
-
-<td align="center" width="220">
-
-### Processing
-
-**Lightweight Models**
-
-<br>
-
-<sub>
-Designed to operate on low-power and low/mid-range Android devices.
-</sub>
-
-</td>
-
-<td align="center" width="220">
-
-### Data
-
-**Text-Based Transmission**
-
-<br>
-
-<sub>
-Speech is converted into lightweight text before transmission.
-</sub>
-
-</td>
-
-<td align="center" width="220">
-
-### Architecture
-
-**Fully Offline**
-
-<br>
-
-<sub>
-Core speech processing and communication remain on-device.
-</sub>
-
-</td>
-
-</tr>
-</table>
-
-<br>
-
-### Core Technologies
+## Tech Stack
 
 | Layer | Technology |
 |---|---|
-| Platform | Android |
-| Language | Kotlin |
-| Development | Android Studio |
-| Speech Recognition | Open-source Offline STT |
-| Speech Synthesis | Offline TTS |
-| Connectivity | Wi-Fi Direct / Bluetooth |
-| Data Format | Lightweight Text Data |
-| Processing | On-device / Local |
-| Network Dependency | None |
+| **Language** | ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white) |
+| **Platform** | ![Android](https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=white) |
+| **UI** | ![Jetpack Compose](https://img.shields.io/badge/Jetpack%20Compose-4285F4?style=flat-square&logo=jetpackcompose&logoColor=white) |
+| **Speech-to-Text** | ![Vosk](https://img.shields.io/badge/Vosk-Offline%20STT-222222?style=flat-square) |
+| **Text-to-Speech** | ![Offline TTS](https://img.shields.io/badge/Offline-TTS-FF6B35?style=flat-square) |
+| **Connectivity** | ![Wi-Fi Direct](https://img.shields.io/badge/Wi--Fi%20Direct-Local%20Link-0D6EFD?style=flat-square&logo=wifi&logoColor=white) ![Bluetooth](https://img.shields.io/badge/Bluetooth-Local%20Link-0082FC?style=flat-square&logo=bluetooth&logoColor=white) |
+| **Data Transmission** | ![Text](https://img.shields.io/badge/Text-Lightweight%20Data-2EA043?style=flat-square) |
+| **Processing** | ![On Device](https://img.shields.io/badge/On--Device-Processing-8957E5?style=flat-square) |
+| **Optimization** | ![Lightweight Models](https://img.shields.io/badge/Lightweight-Models-F0883E?style=flat-square) |
+| **Development** | ![Android Studio](https://img.shields.io/badge/Android%20Studio-IDE-3DDC84?style=flat-square&logo=androidstudio&logoColor=white) |
+| **Network Dependency** | ![Offline](https://img.shields.io/badge/Internet-Not%20Required-555555?style=flat-square) |
 
 <br>
 
 <div align="center">
 
-**Kotlin • Android • Offline AI • Wi-Fi Direct • Bluetooth • On-Device Processing**
+### Core Stack
+
+`Kotlin` · `Android` · `Offline STT` · `Offline TTS` · `Wi-Fi Direct` · `Bluetooth` · `On-Device Processing`
 
 </div>
 
