@@ -494,6 +494,6 @@ iTantra/
 | **Uditya** | [GitHub](https://github.com/USERNAME) |
 | **Dilkhush Kumar** | [GitHub](https://github.com/USERNAME) |
 | **Nisha** | [GitHub](https://github.com/USERNAME) |
-| **Prince** | [GitHub](https://github.com/USERNAME) |
+| **Prince** | https://github.com/Princekr071 |
 | **Jyoti** | [GitHub](https://github.com/USERNAME) |
 | **Saurabh** | [GitHub](https://github.com/USERNAME) |
